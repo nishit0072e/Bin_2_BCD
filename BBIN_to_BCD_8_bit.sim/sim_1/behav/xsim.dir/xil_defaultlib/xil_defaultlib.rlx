@@ -1,0 +1,11 @@
+0.2
+2016.1
+D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.sim/sim_1/behav/glbl.v,1460148552,verilog,,,,,,,,,
+D:/test/Bin_to_BCD_8_bit/add3.v,1677534600,verilog,,,,,,,,,
+D:/test/Bin_to_BCD_8_bit/bcd7seg.v,1677534600,verilog,,,,,,,,,
+D:/test/Bin_to_BCD_8_bit/bcddisplay4.v,1677534600,verilog,,,,,,,,,
+D:/test/Bin_to_BCD_8_bit/binary_to_BCD.v,1677534600,verilog,,,,,,,,,
+D:/test/Bin_to_BCD_8_bit/decoder2to4.v,1677534600,verilog,,,,,,,,,
+D:/test/Bin_to_BCD_8_bit/mux4to1.v,1677534600,verilog,,,,,,,,,
+D:/test/Bin_to_BCD_8_bit/my_counter.v,1677534600,verilog,,,,,,,,,
+D:/test/Bin_to_BCD_8_bit/slowclock.v,1677534600,verilog,,,,,,,,,

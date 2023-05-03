@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/add3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/decoder2to4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/slowclock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slowclock
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/my_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/binary_to_BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module binary_to_BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/mux4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/bcd7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcd7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/bcddisplay4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcddisplay4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

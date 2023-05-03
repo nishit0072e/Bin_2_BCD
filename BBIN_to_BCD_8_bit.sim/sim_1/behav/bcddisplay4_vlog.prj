@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../Bin_to_BCD_8_bit/add3.v"
+verilog xil_defaultlib  "../../../../Bin_to_BCD_8_bit/decoder2to4.v"
+verilog xil_defaultlib  "../../../../Bin_to_BCD_8_bit/slowclock.v"
+verilog xil_defaultlib  "../../../../Bin_to_BCD_8_bit/my_counter.v"
+verilog xil_defaultlib  "../../../../Bin_to_BCD_8_bit/binary_to_BCD.v"
+verilog xil_defaultlib  "../../../../Bin_to_BCD_8_bit/mux4to1.v"
+verilog xil_defaultlib  "../../../../Bin_to_BCD_8_bit/bcd7seg.v"
+verilog xil_defaultlib  "../../../../Bin_to_BCD_8_bit/bcddisplay4.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

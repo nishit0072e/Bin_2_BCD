@@ -1,0 +1,23 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto bd56c8d7d0594cffb9597d6009df42c7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bcddisplay4_behav xil_defaultlib.bcddisplay4 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 2 for port HUNDREDS [D:/test/Bin_to_BCD_8_bit/bcddisplay4.v:9]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 2 for port C [D:/test/Bin_to_BCD_8_bit/bcddisplay4.v:10]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.add3
+Compiling module xil_defaultlib.binary_to_BCD
+Compiling module xil_defaultlib.mux4to1
+Compiling module xil_defaultlib.slowclock
+Compiling module xil_defaultlib.my_counter
+Compiling module xil_defaultlib.decoder2to4
+Compiling module xil_defaultlib.bcd7seg
+Compiling module xil_defaultlib.bcddisplay4
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot bcddisplay4_behav
