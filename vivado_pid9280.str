@@ -1,0 +1,210 @@
+/*
+
+Vivado v2016.1 (64-bit)
+SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+Process ID: 9280
+
+Current time: 	5/3/23 12:03:54 PM IST
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.1/tps/win64/jre
+
+User name: 	VLSI-04
+User home directory: C:/Users/VLSI-04
+User working directory: D:/test/BBIN_to_BCD_8_bit
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.1/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.1/bin
+
+Vivado preferences path: C:/Users/VLSI-04/AppData/Roaming/Xilinx/Vivado/2016.1/vivado.ini
+Vivado layouts directory: C:/Users/VLSI-04/AppData/Roaming/Xilinx/Vivado/2016.1/layouts
+
+GUI allocated memory:	165 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 425 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 30 MB (+28598kb) [00:00:09]
+// [Engine Memory]: 391 MB (+258472kb) [00:00:09]
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: D:\test\BBIN_to_BCD_8_bit\BBIN_to_BCD_8_bit.xpr. Version: Vivado v2016.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// [GUI Memory]: 38 MB (+6804kb) [00:00:13]
+// [Engine Memory]: 427 MB (+17573kb) [00:00:13]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 435 MB. GUI used memory: 26 MB. Current time: 5/3/23 12:03:57 PM IST
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 47 MB (+8074kb) [00:00:19]
+// [Engine Memory]: 495 MB (+49005kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 51 MB (+1652kb) [00:00:23]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: BBIN_to_BCD_8_bit; location: D:/test/BBIN_to_BCD_8_bit; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 728.523 ; gain = 113.059 
+// [Engine Memory]: 524 MB (+3994kb) [00:00:23]
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 533 MB. GUI used memory: 32 MB. Current time: 5/3/23 12:04:12 PM IST
+// PAPropertyPanels.initPanels (bcddisplay4.v) elapsed time: 0.2s
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bcddisplay4 (bcddisplay4.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bcddisplay4 (bcddisplay4.v), u0 - binary_to_BCD (binary_to_BCD.v)]", 2, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bcddisplay4 (bcddisplay4.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bL:g (cv:JFrame):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 626 MB. GUI used memory: 34 MB. Current time: 5/3/23 12:04:37 PM IST
+// [Engine Memory]: 668 MB (+123638kb) [00:00:56]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 760 MB. GUI used memory: 34 MB. Current time: 5/3/23 12:04:42 PM IST
+// [Engine Memory]: 761 MB (+62112kb) [00:01:00]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [GUI Memory]: 65 MB (+11770kb) [00:01:00]
+// [Engine Memory]: 860 MB (+64282kb) [00:01:00]
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 72 MB (+3563kb) [00:01:08]
+// Package: addNotify
+// Device: addNotify
+// [GUI Memory]: 76 MB (+854kb) [00:01:11]
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.1 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc] 
+// Tcl Message: Finished Parsing XDC File [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// [GUI Memory]: 82 MB (+2396kb) [00:01:11]
+// 'dF' command handler elapsed time: 21 seconds
+// N:a (cv:JFrame): Critical Messages: addNotify
+// Elapsed time: 21 seconds
+dismissDialog("Open Synthesized Design"); // bL:g (cv:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, N:a)
+dismissDialog("Critical Messages"); // N:a (cv:JFrame)
+// [Engine Memory]: 903 MB (+221kb) [00:01:14]
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "sw (8) ; IN ;  ;  ; true ; 34 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 3); // L:as (JViewport:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 937 MB. GUI used memory: 63 MB. Current time: 5/3/23 12:05:02 PM IST
+// [Engine Memory]: 956 MB (+7698kb) [00:01:19]
+// [Engine Memory]: 1,033 MB (+30523kb) [00:01:22]
+// RouteApi::initDelayMediator elapsed time: 11.7s
+// [Engine Memory]: 1,268 MB (+191915kb) [00:01:26]
+// Elapsed time: 24 seconds
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 15); // x:Y (w:G, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 23, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 23, true, false, false, false, false, true); // x:Y (w:G, cv:JFrame) - Double Click - Node
+// Tcl Message: open_hw 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,293 MB. GUI used memory: 65 MB. Current time: 5/3/23 12:05:32 PM IST
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.1   **** Build date : Apr  8 2016-16:12:32     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A57EC2A 
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.runs/impl_1/bcddisplay4.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+// [GUI Memory]: 94 MB (+8033kb) [00:02:03]
+// [Engine Memory]: 1,360 MB (+29967kb) [00:02:03]
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,360 MB. GUI used memory: 66 MB. Current time: 5/3/23 12:05:47 PM IST
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aV:aj (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aV:aj)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aV:aj (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.runs/impl_1/bcddisplay4.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// [GUI Memory]: 99 MB (+447kb) [00:02:52]
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A57EC2A 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 56 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+// [GUI Memory]: 105 MB (+616kb) [00:04:21]
+// [GUI Memory]: 111 MB (+898kb) [00:16:57]

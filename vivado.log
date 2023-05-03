@@ -1,0 +1,138 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed May 03 12:03:20 2023
+# Process ID: 9280
+# Current directory: D:/test/BBIN_to_BCD_8_bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1464 D:\test\BBIN_to_BCD_8_bit\BBIN_to_BCD_8_bit.xpr
+# Log file: D:/test/BBIN_to_BCD_8_bit/vivado.log
+# Journal file: D:/test/BBIN_to_BCD_8_bit\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 728.523 ; gain = 113.059
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc]
+WARNING: [Vivado 12-584] No ports matched 'bcd[11]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[10]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[9]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[8]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[7]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[6]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[5]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[4]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[3]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[11]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[10]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[9]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[8]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[7]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[6]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[5]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[4]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[3]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[2]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[1]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[0]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[2]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[1]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd[0]'. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:21 . Memory (MB): peak = 1051.293 ; gain = 309.922
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.1
+  **** Build date : Apr  8 2016-16:12:32
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A57EC2A
+set_property PROGRAM.FILE {D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.runs/impl_1/bcddisplay4.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.runs/impl_1/bcddisplay4.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A57EC2A

@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed May 03 12:03:20 2023
+# Process ID: 9280
+# Current directory: D:/test/BBIN_to_BCD_8_bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1464 D:\test\BBIN_to_BCD_8_bit\BBIN_to_BCD_8_bit.xpr
+# Log file: D:/test/BBIN_to_BCD_8_bit/vivado.log
+# Journal file: D:/test/BBIN_to_BCD_8_bit\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.runs/impl_1/bcddisplay4.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.runs/impl_1/bcddisplay4.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]

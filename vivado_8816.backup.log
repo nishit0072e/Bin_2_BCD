@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed Mar 01 12:01:07 2023
+# Process ID: 8816
+# Current directory: D:/test/BBIN_to_BCD_8_bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10052 D:\test\BBIN_to_BCD_8_bit\BBIN_to_BCD_8_bit.xpr
+# Log file: D:/test/BBIN_to_BCD_8_bit/vivado.log
+# Journal file: D:/test/BBIN_to_BCD_8_bit\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 789.164 ; gain = 138.289
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/add3.v" into library work [D:/test/Bin_to_BCD_8_bit/add3.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/bcd7seg.v" into library work [D:/test/Bin_to_BCD_8_bit/bcd7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/bcddisplay4.v" into library work [D:/test/Bin_to_BCD_8_bit/bcddisplay4.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/binary_to_BCD.v" into library work [D:/test/Bin_to_BCD_8_bit/binary_to_BCD.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/decoder2to4.v" into library work [D:/test/Bin_to_BCD_8_bit/decoder2to4.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/sources_1/new/led_bcd.v" into library work [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/sources_1/new/led_bcd.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "=". [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/sources_1/new/led_bcd.v:16]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/mux4to1.v" into library work [D:/test/Bin_to_BCD_8_bit/mux4to1.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/my_counter.v" into library work [D:/test/Bin_to_BCD_8_bit/my_counter.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/test/Bin_to_BCD_8_bit/slowclock.v" into library work [D:/test/Bin_to_BCD_8_bit/slowclock.v:1]
+[Wed Mar 01 12:06:41 2023] Launched synth_1...
+Run output will be captured here: D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc]
+Finished Parsing XDC File [D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/constrs_1/new/seggg.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1073.102 ; gain = 279.645
+add_files -norecurse D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/sources_1/new/led_bcd.v
+WARNING: [filemgmt 56-12] File 'D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/sources_1/new/led_bcd.v' cannot be added to the project because it already exists in the project, skipping this file
+remove_files D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/sources_1/new/led_bcd.v
+file delete -force D:/test/BBIN_to_BCD_8_bit/BBIN_to_BCD_8_bit.srcs/sources_1/new/led_bcd.v
+ERROR: [Common 17-9] Error reading message records.
+ERROR: [Common 17-9] Error reading message records.
+ERROR: [Common 17-9] Error reading message records.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 01 13:29:11 2023...
